@@ -1,0 +1,7 @@
+# Ignore these Obsidian files.
+.obsidian/workspace.json
+.obsidian/app.json
+
+# Ignore OSX related files
+.DS_Store
+Thumbs.db
