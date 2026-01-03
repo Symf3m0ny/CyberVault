@@ -39,7 +39,21 @@ Bash uses various configuration files, I've listed some of them out here and wha
 
 #### Control
 
+`&`  Send command to the background
+`&&` Used as a logical AND. The second command will run if the first one evaluates to true.
+`( and )` Used for command grouping
+`;` Used as a list terminator. A command following the terminator will run after the preceding one regardless if it evaluates to true or not.
+`;;` Ends a case statement
+`||` Used as a logical OR. The second command will run if the first one evaluates to fase.
 #### Redirection
+
+`>` Redirects stdout to a file.
+`>>` Redirects stdout to a file by appending it to the existing document
+`&> or >&` Redirects stdout and stderr to a file
+`&>>` Redirects stdout and stderr to a file by appending them to the existing content
+`<` Redirects input to a comand
+`<<` Called a here document, or heredoc, redirects multiple lines to a command
+`|` Redirects the output of a command as input to another command
 
 ### Arrays
 
